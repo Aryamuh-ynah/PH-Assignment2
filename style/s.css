@@ -10,15 +10,19 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+
 }
 
 /* Shared */
 .size{
-    width: 1440px;
+    width: 1060px;
     margin: 0 auto;
 }
-
+h2{
+    color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+}
 .btn{
     border-radius: 42px;
 background: rgb(230, 83, 60);
@@ -30,13 +34,22 @@ padding: 16px 40px;
 color: white;
 border: none;
 }
-
+.c{
+    width: 671px;
+    height: 120px;
+    flex-direction: column;
+    margin: 70px auto;
+    text-align: center;
+}
 .text{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
+    margin: 14px 0px;
 }
-
+body{
+    background-color: black;
+}
 .dis{
     display: flex;
     justify-content: space-between;
@@ -49,7 +62,6 @@ header{
 
 /* Nav */
 nav{
-
     padding-top: 57px;
 }
 .fit h3{
@@ -102,33 +114,164 @@ height: 440px;
     color: rgba(255, 255, 255, 0.5);
 font-size: 16px;
 font-weight: 400;
+margin: 2rem 0;
 
 }
 /* Cng ur habits */
 
+.c p{
+    text-align: center;
+}
+.round-cards{
+    margin: 10rem 0;
+}
 
-.round-card{
-
+.card{
+    width: 231px;
+height: 64px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.card p{
+    text-align: center;
 }
 .card img{
     width: 240px;
     height: 180px;
     border-radius: 50%;
+    margin-bottom: 2rem;
 }
+h6{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+margin: 0 auto;
+}
+
+/* Run */
+
+.run{
+border-radius: 18px;
+background: rgb(34, 34, 34);
+margin:0 auto;
+}
+.run img{
+width: 366px;
+height: 312px;
+border-radius: 18px;
+}
+/* BMI */
+.bmi{
+    width: 671px;
+    height: 120px;
+    flex-direction: column;
+    margin: 70px auto;
+    text-align: left;
+}
+.calc{
+    background: rgb(34, 34, 34);
+}
+.s{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+h3{
+    color: rgb(255, 255, 255);
+font-size: 28px;
+font-weight: 900;
+text-align: left;}
+.chart h3{
+    margin: 52px 0;
+}
+th{
+    color: rgb(255, 255, 255);
+font-size: 1rem
+;
+font-weight: 500;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.bmi-container {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 580px;
+    text-align:left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px
+    
+}
+
+.input-group input,.input-group select{
+    background-color: #3c3c3c;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 10px;
+}
+.input-group input, .sex{
+    width: 282px;
+}
+.input-group select{
+width: 100%;
+}
+
+input::placeholder,
+select {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
 
 /* Team */
 .team img{
-    width: 326.67px;
+width: 326px;
 height: 272px;
 border-radius: 18px;
-margin: 20px 0px;
 
 }
 .team{
-    width: 1060px;
-height: 604px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
 }
