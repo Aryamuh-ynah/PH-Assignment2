@@ -11,9 +11,124 @@
     margin: 0;
     padding: 0;
     background-color: black;
-    color: white;
 }
 
-body{
-    padding-left: 190px;
+/* Shared */
+.size{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-radius: 42px;
+background: rgb(230, 83, 60);
+font-size: 18px;
+font-weight: 600;
+width: 224px;
+height: 54px;
+padding: 16px 40px;
+color: white;
+border: none;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    /* box-shadow:linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%), inset; */
+    box-shadow: 0 50px 500px 20px rgba(119, 119, 119, 0) inset;
+}
+
+/* Nav */
+nav{
+
+    padding-top: 57px;
+}
+.fit h3{
+    color: rgb(230, 83, 60);
+font-size: 36px;
+font-weight: 800;
+}
+ul{
+    width: 465px;
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+padding-right: 10px;
+
+}
+li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+font-weight: 400;
+}
+.b{
+    width: 92px;
+    height: 38px;
+    padding: 8px 20px;
+
+}
+
+
+/* Banner */
+.title{
+    width: 520px;
+height: 440px;
+}
+
+
+.title h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: white;
+    line-height: 100%;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 110px;
+}
+
+.title p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+
+}
+/* Cng ur habits */
+
+
+.round-card{
+
+}
+.card img{
+    width: 240px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+/* Team */
+.team img{
+    width: 326.67px;
+height: 272px;
+border-radius: 18px;
+margin: 20px 0px;
+
+}
+.team{
+    width: 1060px;
+height: 604px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
 }
