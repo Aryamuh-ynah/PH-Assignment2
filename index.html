@@ -81,7 +81,7 @@
                 <p class="text">Body Mass Index (BMI) is a numerical value derived from a person's weight and height, used to assess whether they are underweight, normal weight, overweight, or obese.</p>
             </div>
             <div class="calc">
-                <div class="s">
+                <div class="s size">
                     <div class="chart">
                         <h3>BMI Calculator Chart</h3>
                         <table>
@@ -108,24 +108,26 @@
                         </table>
                     </div>
                     <div class="bmi-container">
-                        <h3>Calculate your BMI</h3>
-                        <p class="text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                        
+
+                        <div class="bmi-t">
+                            <h3>Calculate your BMI</h3>
+                            <p class="text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                        </div>
                         <form>
                             <div class="input-group">
-                                <input type="text" placeholder="Height/cm">
-                                <input type="text" placeholder="Weight/kg">
+                                <input class="px" type="text" placeholder="Height/cm">
+                                <input class="px" type="text" placeholder="Weight/kg">
                             </div>
                             <div class="input-group">
-                                <input type="text" placeholder="Age">
-                                <select class="sex">
+                                <input class="px" type="text" placeholder="Age">
+                                <select class="px2">
                                     <option selected>Sex</option>
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
                                 </select>
                             </div>
                             <div class="input-group">
-                                <select>
+                                <select class="act">
                                     <option selected>Select an activity factor</option>
                                     <option value="sedentary">Sedentary</option>
                                     <option value="light">Light activity</option>
@@ -150,9 +152,53 @@
             </div>
         </section>
         <section>
-            <div class="contact">
-
+            <div class="get-free">
+                <h2 class="size">GET STARTED WITH A <span class="free">FREE</span> CONSULTATION</h2>
             </div>
+            <div class="form-container dis">
+                <div class="dis">
+                    <form class="f1" action="#">
+                        <label for="name">Name</label>
+                    <input type="text" placeholder="Name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+        
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                </form>
+                <form class="f">
+                    <div class="checkboxes">
+                        <label>
+                            <input type="checkbox" name="interest" value="weight_loss"> WEIGHT LOSS
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interest" value="body_building"> BODY BUILDING
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interest" value="boot_camp"> BOOT CAMP
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interest" value="circuit_training"> CIRCUIT TRAINING
+                        </label>
+                        <label>
+                            <input type="checkbox" name="interest" value="group_training"> GROUP TRAINING
+                        </label>
+                        <label>
+                            <input type="checkbox" value="nutrition"> NUTRITION
+                        </label>
+                    </div>
+        
+                    <label for="help">How Can I Help?</label>
+                    <textarea name="help" placeholder="Have Questions?" rows="4"></textarea>                    
+                </form>
+
+                </div>
+                <div class="sub">
+                    <button class="btn">SUBMIT</button>
+                </div>
+            </div>
+
         </section>
     </main>
     <footer>
