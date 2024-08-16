@@ -60,7 +60,8 @@ body{
 }
 header{
     width: 100%;
-    background:linear-gradient(180deg, rgb(34, 34, 34)10%,rgba(70, 69, 69, 0) 100%); 
+    /* background:linear-gradient(180deg, rgb(34, 34, 34)10%,rgba(70, 69, 69, 0) 100%);  */
+    background: linear-gradient(180.00deg, rgba(43, 43, 43, 0.944),rgba(119, 119, 119, 0.034) 100%);
 }
 
 /* Nav */
@@ -133,7 +134,7 @@ max-width: 224px;
 padding: 16px 40px;
 margin: 0px 14px;
 box-sizing: border-box;
-background-color: #000;
+background:none;
 border: 1px solid rgb(255, 255, 255);
 border-radius: 42px;
 color: rgb(255, 255, 255);
@@ -266,7 +267,7 @@ border-radius: 18px;
     justify-content: space-between;
     align-items: first baseline;
 }
-.calc h3{
+h3{
     color: rgb(255, 255, 255);
 font-size: 28px;
 font-weight: 900;
@@ -478,6 +479,7 @@ font-weight: 800;
         display: flex;
         flex-direction: column;
     }
+
     .list, .club{
         display: none;
     }
@@ -515,11 +517,11 @@ font-weight: 800;
     }
     .c500{
     left: 327px;
-    top: 600px;
+    top: 610px;
     }
     .c350{
     left: 34px;
-    top: 816px;
+    top: 826px;
     }
     .form-container {
         max-width: 366px;}
